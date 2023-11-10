@@ -1,0 +1,7 @@
+node_modules/**
+**/node_modules/**
+android/**
+ios/**
+web-build/**
+src/renderers/*.js
+src/components/floorplan/dom-events.js

@@ -1,0 +1,119 @@
+/* @import '~antd/dist/antd.less';
+@import '~antd/lib/style/themes/dark.less'; */
+
+/* .ant-layout-header {
+	background: #282828;
+	padding: 0 !important;
+} */
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* --primary_color: rgba(34, 34, 34, 0.8); */
+	/* --primary_dark_color: rgb(34, 34, 34); */
+	--primary_color: rgba(66, 121, 183, 0.7);
+	--primary_dark_color: rgb(66, 121, 183);
+	--secondary_color_dark: #214683;
+	--dark_color: rgba(34, 34, 34, .8);
+
+	/* new */
+	--root_color: #131A20;
+	--toolbar_color: #22262B;
+	--input_fields_color: #222427;
+	--arrow_bg: #303337;
+	--switch_inputs_bg: #525456;
+	--font_family: 'poppins', sans-serif;
+	--input_fields_width: 163px;
+	--input_fields_height: 40px;
+	--input_fields_border_radius: 10px;
+	--form_inputs_border_color: #35393e;
+	--sub_text_color: 'rgba(255,255,255,.6)';
+	--font_size: 12px;
+	--button_color: #525456;
+	--menu_color: #445dcb;
+	--textarea_color: #272a2e;
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	overflow: hidden;
+}
+#root {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	overflow: hidden;
+	overflow: auto;
+}
+
+/*width*/
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: var(--dark_color);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	/* background: rgba(125, 124, 124, 0.5); */
+	background: var(--button_color);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	/* background: #555; */
+	background: rgba(66, 121, 183, 1.0);
+  }
+  
+  .icon-spin {
+	-webkit-animation: icon-spin 2s infinite linear;
+			animation: icon-spin 2s infinite linear;
+  }
+  
+  @-webkit-keyframes icon-spin {
+	0% {
+	  -webkit-transform: rotate(0deg);
+			  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(359deg);
+			  transform: rotate(359deg);
+	}
+  }
+  
+  @keyframes icon-spin {
+	0% {
+	  -webkit-transform: rotate(0deg);
+			  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(359deg);
+			  transform: rotate(359deg);
+	}
+  }
+  
